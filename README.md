@@ -1,86 +1,123 @@
-# Getting Started with Create React App
+# 💰 Expense Tracker
+
+A **Simple MERN (MongoDB, Express, React, Node.js)** based Expense Tracker that helps you record, manage, and analyze your expenses efficiently.
+
+---
+
+## 🚀 Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧩 Prerequisites
 
-### `npm start`
+Make sure you have the following installed on your system:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ⚙️ Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the steps below to run the app locally 👇
 
-### `npm run build`
+### 🖥 Backend Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# Expense Tracker
-
-Simple MERN expense tracker.
-
-## Run locally
-
-Backend:
+```bash
 cd backend
 npm install
 npm start
+```
 
-Frontend:
+The backend server will start on **http://localhost:5000**
+
+---
+
+### 💻 Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
+```
+
+The frontend will start on **http://localhost:3000**
+
+---
+
+## 📁 Folder Structure
+
+```
+Expense-tracker/
+│
+├── backend/              # Express + MongoDB API
+│   ├── models/           # Mongoose schemas
+│   ├── routes/           # API routes
+│   ├── server.js         # Main server file
+│
+├── frontend/             # React app (Create React App)
+│   ├── src/
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/        # React pages
+│   │   ├── App.js        # Root component
+│   │   └── index.js      # Entry point
+│
+└── README.md
+```
+
+---
+
+## 🧠 Features
+
+✅ Add, edit, and delete expenses  
+✅ View transaction history  
+✅ Track total income and expenses  
+✅ Responsive, user-friendly UI  
+✅ MongoDB-based persistent storage  
+
+---
+
+## 🛠 Technologies Used
+
+| Category | Tools |
+|-----------|----------------------|
+| Frontend  | React.js, CSS |
+| Backend   | Node.js, Express.js |
+| Database  | MongoDB |
+| Others    | Mongoose, Axios |
+
+---
+
+## 🧾 Available Scripts (Frontend)
+
+In the `frontend` directory, you can run:
+
+| Command | Description |
+|----------|-------------|
+| `npm start` | Runs the app in development mode at [http://localhost:3000](http://localhost:3000) |
+| `npm test` | Launches the test runner |
+| `npm run build` | Builds the app for production |
+| `npm run eject` | Ejects configuration for customization |
+
+---
+
+## 🌐 Deployment
+
+Build your frontend and connect it with your backend before deploying.
+
+Refer to the official guides for:
+- [React Deployment Docs](https://facebook.github.io/create-react-app/docs/deployment)
+- [Node Deployment Guide](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-node-js-application)
+
+---
+
+## 👩‍💻 Author
+
+**Diksha Dabhole**  
+🎓 3rd-Year Computer Engineering Student  
+🚀 Aspiring Software Engineer  
+
+🔗 [GitHub Profile](https://github.com/Diksha78-bot)
